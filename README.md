@@ -6,7 +6,7 @@
 
 3. The value of N that causes an overflow for the long data type is 65536. 
 
-4. The value that causes the overflow with type float as the product is 35.
+4. The value that causes the overflow with type float as the product is 35. With this type of data type, you know that an overflow occured if the output is equal to "inf".
 
 5. The value that causes the overflow with type double as the product is 171.
 
