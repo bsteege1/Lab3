@@ -1,5 +1,6 @@
 //Brandon Steege
 //Lab3-bsteege1
+1. n = 5, sum = 15
 
 2. The value of N that causes the overflow is at 256 for the short data type.
    This can be detected by stopping the function and reporting the value of n if the sum is ever less than zero. 
