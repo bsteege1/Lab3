@@ -1,6 +1,6 @@
 //Brandon Steege
 //Lab 3
-//10/01/18
+//10/08/18
 
 #include<iostream>
 using std::cout;
@@ -10,7 +10,6 @@ using std::endl;
 
 int main()
 {
-	/*
 	short n;
 	short sum(0);
 	
@@ -39,9 +38,9 @@ int main()
 	
 
 	long n2;
-	long product2(1);
+	float product2(1);
 
-	cout << "Please enter a value for n <= 17: ";
+	cout << "Please enter a value for n <= 34: ";
 	cin >> n2;
 
 	for (long i(1); i <= n2; i++)
@@ -63,9 +62,9 @@ int main()
 	
 	
 	float n3;
-	float product3(1);
+	double product3(1);
 
-	cout << "Please enter a value for n <= 65535: ";
+	cout << "Please enter a value for n <= 170: ";
 	cin >> n3;
 
 	for (float i(1); i <= n3; i++)
@@ -86,7 +85,7 @@ int main()
 	float n4;
 	float sum4(0);
 
-	cout << "Please enter a value for n <= 8: ";
+	cout << "Please enter a value for n <= 9: ";
 	cin >> n4;
 
 	for (float i(1); i <= n4; i++)
@@ -99,16 +98,16 @@ int main()
 	double n5;
 	double sum5(0);
 
-	cout << "Please enter a value for n: ";
+	cout << "Please enter a value for n <= 5: ";
 	cin >> n5;
 
 	for (double i(1); i <= n5; i++)
 	{
 		double ratio = (1 / n5);
 		sum5 = (ratio + sum5);
-		cout << "Sum: " << (sum5 - 1) << endl << "i: " << i << endl;
+		cout << "Sum: " << (sum5 - 1) << endl << "i: " << i << "\n" << endl;
 	}
-	*/
+	
 	
 	//The float does not store the exact value, which makes the for loop believe that i is actually less than 4.4, when if it was more accurate, it shouldn't have. The double is far more accurate 
 	// and will actually go to the correct values. 
@@ -116,6 +115,8 @@ int main()
 	{ 
 		cout << "i = " << i << endl;
 	}
+
+
 
 	for (double i = 3.4; i < 4.4; i += 0.2)
 	{
